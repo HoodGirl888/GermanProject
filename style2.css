@@ -1,0 +1,175 @@
+div.top-bar {
+    background-color: #323232;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 99;
+}
+
+img.top-bar {
+    position: absolute;
+    width: 175px;
+    height: 115px;
+    left: 5px;
+    top: 0px;
+    color: azure;
+}
+
+.header {
+    font-family: 'Exo', sans-serif;
+    font-size: 50px;
+    color: #d9d9d9;
+    position: absolute;
+    left: 170px;
+    bottom: -10px;
+    text-align: center;
+}
+
+h2#diary {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color: #d9d9d9;
+    position: absolute;
+    left: 40%;
+    text-align: center;
+}
+
+.theme {
+    font-family: 'Exo', sans-serif;
+    font-size: 50px;
+    color: #d9d9d9;
+    position: absolute;
+    left: 170px;
+    top: 30px;
+    z-index: 90;
+}
+
+p#intro {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 45px;
+    color: #d9d9d9;
+    position: relative;
+    left: 120px;
+    top: 230px;
+}
+
+
+.diary {
+    display: inline-block;
+}
+
+#black {
+    width: 80%;
+    height: 800px;
+    background-color: black;
+    position: relative;
+} 
+
+#red {
+    width: 100%;
+    height: 5000px;
+    background-color: #DA291C;
+    position: static;
+}
+
+#yellow {
+    width: 100%;
+    height: 500px;
+    background-color: #FFD200;
+    position: static;
+}
+
+.diary {
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+    top: 1400px;
+    color: #d9d9d9; 
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    list-style-position: inside;
+}
+
+.diary#english {
+    display: inline-block;
+    position: absolute;
+    right: 495px;
+}
+
+.diary#german {
+    display: inline-block;
+    position: absolute;
+    left: 380px;
+}
+
+#englishimg {
+    width: 180px;
+    height: 120px;
+    position: absolute;
+    right: 19%;
+    top: 19%;
+}
+
+#germanimg {
+    width: 180px;
+    height: 120px;
+    position: absolute;
+    list-style-position: inside;
+    top: 19%;
+    left: 19%;
+}
+
+.flagbackground {
+    background-color: #d9d9d9;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 100px;
+}
+
+#title {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #d9d9d9;
+    position: absolute;
+    font-size: 75px;
+    top: 60px;
+    left: 120px;
+}
+
+.redoutlin1 {
+    background-color: #b02015;
+    position: absolute;
+    left: 24%;
+    top: 1200px;
+    border-radius: 100px;
+    width: 290px;
+    height: 170px;
+}
+
+.redoutlin2 {
+    background-color: #b02015;
+    position: absolute;
+    right: 24%;
+    top: 1200px;
+    border-radius: 100px;
+    width: 290px;
+    height: 170px;
+}
+
+#titleimage {
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    top: 180px;
+    right: 30px;
+}
+
+#home {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    padding: 20px;
+
+}
